@@ -1,0 +1,21 @@
+[package]
+name = "learn_egui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# 事件循环与窗口（winit 0.29 使用 rwh_06 与 wgpu 0.19 匹配）
+winit = { version = "0.29", features = ["rwh_06"] }
+
+# UI 框架
+egui = "0.28"
+egui-winit = "0.28"
+egui-wgpu = "0.28"
+
+# GPU 后端与阻塞工具（与 egui-wgpu 0.28 对齐到 wgpu 0.20）
+wgpu = "0.20"
+pollster = "0.3"
+
+# 日志
+log = "0.4"
+env_logger = "0.11"
