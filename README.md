@@ -31,4 +31,4 @@ set RUST_LOG=info && cargo run
 
 - winit 0.29 ApplicationHandler API
 - egui/egui-winit/egui-wgpu 0.28
-- wgpu 0.19
+- wgpu 0.20
